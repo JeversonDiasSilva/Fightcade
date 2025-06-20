@@ -7,7 +7,7 @@
 
 <br>
 
-<img src="https://github.com/JeversonDiasSilva/Fightcade/blob/main/img/fightcade.png" width="75" height="75" />
+<img src="https://github.com/JeversonDiasSilva/Fightcade/blob/main/img/fightcade.png"/>
 
 
 <h1>Instalação<h1>
