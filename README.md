@@ -1,6 +1,15 @@
-# Fightcade
-#<img src="https://raw.githubusercontent.com/JeversonDiasSilva" alt="Fightcade 02">
-!()[./Logo.png]
+# Fightcade 
+
+<br><br>  ++
+
+
+
+
+<br>
+
+<img src="https://github.com/JeversonDiasSilva/releses/blob/main/apps/img/Heroic.png" width="75" height="75" />
+<h2>Instalados da Heroic Laucher para as versões v40 e v41</h2>
+
 
 <h1>Instalação<h1>
 
@@ -10,5 +19,5 @@
 
 
 ```bash
-curl -L https://raw.githubusercontent.com/JeversonDiasSilva/Fightcade/main/Install_fightcade.sh | bash
+curl -L bit.ly/JCGAMES-FIGHTCADE | bash
 ```
