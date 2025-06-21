@@ -5,6 +5,7 @@
 # Script de instalação"ONLINE" do sistema "FIGHTCADE 2"
 url="https://github.com/JeversonDiasSilva/Fightcade/releases/download/v1.0/run.jc" > /dev/null 2>&1
 dep="https://github.com/JeversonDiasSilva/streetfighterv/releases/download/v1.0/xdotool" > /dev/null 2>&1
+logo=fightcade.png
 url_logo="https://raw.githubusercontent.com/JeversonDiasSilva/Fightcade/main/img/fightcade.png"
 squash=$(basename "$url")
 
@@ -12,7 +13,7 @@ squash=$(basename "$url")
 # Baixando o script e a dependência xdotool
 wget "$url" -O "$squash" > /dev/null 2>&1
 wget "$dep" -O xdotool > /dev/null 2>&1
-wget "$url_logo" -O /usr/share/emulationstation/themes/es-theme-carbon/art/logos/fightcade.png
+wget "$url_logo" -O /usr/share/emulationstation/themes/es-theme-carbon/art/logos/$logo
 
 # Tornando ambos executáveis
 chmod +x "$squash"
