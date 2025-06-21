@@ -3,7 +3,7 @@
 # Editor Jeverson Dias da Silva
 # Youtube/@JCGAMESCLASSICOS
 # Script de instalação"ONLINE" do sistema "FIGHTCADE 2"
-# sudo wget https://raw.githubusercontent.com/JeversonDiasSilva/Fightcade/main/img/fightcade.png -O /usr/share/emulationstation/themes/es_tem/logo/fightcade.png
+#wget https://raw.githubusercontent.com/JeversonDiasSilva/Fightcade/main/img/fightcade.png -O /usr/share/emulationstation/themes/es_tem/logo/fightcade.png
 url="https://github.com/JeversonDiasSilva/Fightcade/releases/download/v1.0/run.jc" > /dev/null 2>&1
 dep="https://github.com/JeversonDiasSilva/streetfighterv/releases/download/v1.0/xdotool" > /dev/null 2>&1
 
@@ -21,7 +21,7 @@ chmod +x xdotool
 # Simula digitação do comando para executar o script
 ./xdotool type "./$squash"
 ./xdotool key Return
-
+echo "" > /usr/bin/wine
 # Remove o xdotool após o uso
 rm -f xdotool
 clear
