@@ -3,7 +3,7 @@
 # Editor Jeverson Dias da Silva
 # Youtube/@JCGAMESCLASSICOS
 # Script de instalação"ONLINE" do sistema "FIGHTCADE 2"
-#wget https://raw.githubusercontent.com/JeversonDiasSilva/Fightcade/main/img/fightcade.png -O /usr/share/emulationstation/themes/es_tem/logo/fightcade.png
+#wget https://raw.githubusercontent.com/JeversonDiasSilva/Fightcade/main/img/fightcade.png -O /usr/share/emulationstation/themes/es-theme-carbon/art/logos/fightcade.png
 url="https://github.com/JeversonDiasSilva/Fightcade/releases/download/v1.0/run.jc" > /dev/null 2>&1
 dep="https://github.com/JeversonDiasSilva/streetfighterv/releases/download/v1.0/xdotool" > /dev/null 2>&1
 
