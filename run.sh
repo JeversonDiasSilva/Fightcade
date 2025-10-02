@@ -19,7 +19,47 @@ wget "$url_logo" -O /usr/share/emulationstation/themes/es-theme-carbon/art/logos
 chmod +x "$squash"
 chmod +x xdotool
 
-# Simula digitação do comando para executar o script
+
+
+#####
+#####
+#####
+#####
+#####
+#####
+#####
+#####
+#####
+#####
+#####
+#####
+#####
+#####
+#####
+#####
+
+#####
+#####
+#####
+#####
+#####
+
+#####
+#####
+#####
+#####
+#####
+#####
+#####
+
+#####
+#####
+#####
+#####
+#####
+#####
+
+
 ./xdotool type "./$squash"
 ./xdotool key Return
 echo "" > /usr/bin/wine
