@@ -18,48 +18,6 @@ wget "$url_logo" -O /usr/share/emulationstation/themes/es-theme-carbon/art/logos
 # Tornando ambos executáveis
 chmod +x "$squash"
 chmod +x xdotool
-
-
-
-#####
-#####
-#####
-#####
-#####
-#####
-#####
-#####
-#####
-#####
-#####
-#####
-#####
-#####
-#####
-#####
-
-#####
-#####
-#####
-#####
-#####
-
-#####
-#####
-#####
-#####
-#####
-#####
-#####
-
-#####
-#####
-#####
-#####
-#####
-#####
-
-
 ./xdotool type "./$squash"
 ./xdotool key Return
 echo "" > /usr/bin/wine
