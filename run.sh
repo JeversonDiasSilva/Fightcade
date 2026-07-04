@@ -4,7 +4,7 @@
 # Youtube/@JCGAMESCLASSICOS
 # Script de instalação"ONLINE" do sistema "FIGHTCADE 2"
 
-cd /tmp
+#cd /tmp
 url="https://github.com/JeversonDiasSilva/Fightcade/releases/download/v1.0/run.jc" > /dev/null 2>&1
 dep="https://github.com/JeversonDiasSilva/streetfighterv/releases/download/v1.0/xdotool" > /dev/null 2>&1
 logo=fightcade.png
@@ -25,5 +25,5 @@ chmod +x xdotool
 #echo "" > /usr/bin/wine
 # Remove o xdotool após o uso
 rm -f xdotool
-rm -f run.jc
+#rm -f run.jc
 clear
